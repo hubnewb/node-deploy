@@ -24,7 +24,6 @@ const userRouter = require('./routes/user');
 const { sequelize } = require('./models');
 const passportConfig = require('./passport');
 const logger = require('./logger');
-const { default: helmet } = require('helmet');
 
 const app = express();
 passportConfig(); // 패스포트 설정
